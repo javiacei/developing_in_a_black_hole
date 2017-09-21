@@ -1,0 +1,90 @@
+          ______
+         /_  __/___ ___  __  ___  __
+          / / / __ `__ \/ / / / |/_/
+         / / / / / / / / /_/ />  <
+        /_/ /_/ /_/ /_/\__,_/_/|_|
+
+        tmux is a terminal multiplexer that lets you switch between several
+        programs in one terminal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+slide 023
