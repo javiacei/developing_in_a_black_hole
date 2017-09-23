@@ -1,18 +1,13 @@
-         _    ___                 __   ___        __  _
-        | |  / (_)___ ___       _/_/  /   | _____/ /_(_)___  ____  _____
-        | | / / / __ `__ \    _/_/   / /| |/ ___/ __/ / __ \/ __ \/ ___/
-        | |/ / / / / / / /  _/_/    / ___ / /__/ /_/ / /_/ / / / (__  )
-        |___/_/_/ /_/ /_/  /_/     /_/  |_\___/\__/_/\____/_/ /_/____/
+           _____                      __
+          / ___/___  ____ ___________/ /_
+          \__ \/ _ \/ __ `/ ___/ ___/ __ \
+         ___/ /  __/ /_/ / /  / /__/ / / /
+        /____/\___/\__,_/_/   \___/_/ /_/
 
-        • Insert at the end of the current line `A`
-        • Add a new line below `o` and above `O`
-        • Change text `c + <desplazamiento>`
-        • Copy `y + <desplazamiento>`
-        • Delete `d + <desplazamiento>`
-        • Paste `p`
-        • Undo `u` and redo `c-r`
-        • Repeat the last executed command `.`
-        • Autocomplete `c-n`
+        • Search inside current line `f<character>` (forward), `F<character>` (back)
+        • Search inside current file `/`
+        • Search selected word `*`
+        • Search and replace `:%s/<search>/<replace>`
 
         # Example
         from django.db import models

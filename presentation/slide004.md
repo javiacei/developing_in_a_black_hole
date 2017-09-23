@@ -4,19 +4,11 @@
         | |/ / / / / / / /
         |___/_/_/ /_/ /_/
 
-        • Modes
-        • Navigation
-        • Actions
-        • Search
-        • Selection
-        • Macros
-        • Command line
-        • Functions
-        • Splits and tabs
-        • Buffers
-        • Plugins
-        • Tips
-        • Resources
+        Vim, Vi IMproved, is a power open-source text editor
+
+        • Awesome documentation (:help)
+        • Huge community
+        • Extensible, customizable and portable
 
 
 

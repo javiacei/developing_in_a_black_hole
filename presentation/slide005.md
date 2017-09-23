@@ -1,13 +1,21 @@
-         _    ___                 __   __  ___          __
-        | |  / (_)___ ___       _/_/  /  |/  /___  ____/ /__  _____
-        | | / / / __ `__ \    _/_/   / /|_/ / __ \/ __  / _ \/ ___/
-        | |/ / / / / / / /  _/_/    / /  / / /_/ / /_/ /  __(__  )
-        |___/_/_/ /_/ /_/  /_/     /_/  /_/\____/\__,_/\___/____/
+         _    ___
+        | |  / (_)___ ___
+        | | / / / __ `__ \
+        | |/ / / / / / / /
+        |___/_/_/ /_/ /_/
 
-        • Normal `esc`
-        • Visual `v`
-        • Insert `i`
-        • Command-line `:`
+        • Modes
+        • Navigation
+        • Actions
+        • Search
+        • Selection
+        • Macros
+        • Functions
+        • Splits and tabs
+        • Buffers
+        • Plugins
+        • Tips
+        • Resources
 
 
 

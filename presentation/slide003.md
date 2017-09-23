@@ -1,14 +1,13 @@
-         _    ___
-        | |  / (_)___ ___
-        | | / / / __ `__ \
-        | |/ / / / / / / /
-        |___/_/_/ /_/ /_/
+           ______            __             __
+          / ____/___  ____  / /____  ____  / /______
+         / /   / __ \/ __ \/ __/ _ \/ __ \/ __/ ___/
+        / /___/ /_/ / / / / /_/  __/ / / / /_(__  )
+        \____/\____/_/ /_/\__/\___/_/ /_/\__/____/
 
-        Vim, Vi IMproved, is a power open-source text editor
-
-        • Awesome documentation (:help)
-        • Huge community
-        • Extensible, customizable and portable
+        • Vim
+        • Tmux
+        • HTTPie
+        • jq
 
 
 

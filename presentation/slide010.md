@@ -1,14 +1,24 @@
-         _    ___                 __   _____                      __
-        | |  / (_)___ ___       _/_/  / ___/___  ____ ___________/ /_
-        | | / / / __ `__ \    _/_/    \__ \/ _ \/ __ `/ ___/ ___/ __ \
-        | |/ / / / / / / /  _/_/     ___/ /  __/ /_/ / /  / /__/ / / /
-        |___/_/_/ /_/ /_/  /_/      /____/\___/\__,_/_/   \___/_/ /_/
+           _____      __          __  _
+          / ___/___  / /__  _____/ /_(_)___  ____
+          \__ \/ _ \/ / _ \/ ___/ __/ / __ \/ __ \
+         ___/ /  __/ /  __/ /__/ /_/ / /_/ / / / /
+        /____/\___/_/\___/\___/\__/_/\____/_/ /_/
 
-        • Search inside current line `f<character>` (forward), `F<character>` (back)
-        • Search inside current file `/`
-        • Search selected word `*`
-        • Search and replace `:%s/<search>/<replace>`
+        • In visual mode `v`
+        • Block selection `c-v`
 
+        # Example
+        from django.db import models
+
+        class Incident(models.Model):
+            INCIDENT_ACTIONS = (
+                (ASSIGN_DRIVER, 'Assign driver'),
+                (UNASSIGN_DRIVER, 'Unassign driver'),
+                (UPLOAD_CARGO_MANIFEST, 'Upload cargo manifest'),
+                (DELETE_CARGO_MANIFEST, 'Delete cargo manifest'),
+            )
+
+            action = models.CharField(max_length=30, choices=INCIDENT_ACTIONS, default=ACTION_OTHER)
 
 
 

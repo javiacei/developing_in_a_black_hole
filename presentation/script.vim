@@ -23,17 +23,17 @@ b 6
 b 7
 14,21SyntaxInclude python
 b 8
-b 9
 17,24SyntaxInclude python
-b 10
-b 11
+b 9
 12,19SyntaxInclude python
+b 10
+10,22SyntaxInclude python
+b 11
+10,22SyntaxInclude python
 b 12
 b 13
-10,22SyntaxInclude python
 b 14
 b 15
-10,22SyntaxInclude python
 b 16
 b 17
 b 18
@@ -48,7 +48,10 @@ b 26
 b 27
 b 28
 b 29
+9,24SyntaxInclude 
 b 30
 b 31
 b 32
+b 33
+b 34
 b 1

@@ -1,11 +1,12 @@
-          ______
-         /_  __/___ ___  __  ___  __
-          / / / __ `__ \/ / / / |/_/
-         / / / / / / / / /_/ />  <
-        /_/ /_/ /_/ /_/\__,_/_/|_|
-
-        tmux is a terminal multiplexer that lets you switch between several
-        programs in one terminal.
+            _   __            _             __  _
+           / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
+          /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
+         / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
+        /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
+                            /____/
+        • Enter in navigation mode `<leader> + [`
+        • Same vim commands to navigate
+        • Search `/` and navigate between searches `n` y `N`
 
 
 

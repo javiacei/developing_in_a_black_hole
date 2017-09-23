@@ -1,15 +1,10 @@
-          ______
-         /_  __/___ ___  __  ___  __
-          / / / __ `__ \/ / / / |/_/
-         / / / / / / / / /_/ />  <
-        /_/ /_/ /_/ /_/\__,_/_/|_|
-
-        • Windows
-        • Splits
-        • Navigation
-        • Sync
-        • Pair Programming
-        • Tips
+           _____
+          / ___/__  ______  _____
+          \__ \/ / / / __ \/ ___/
+         ___/ / /_/ / / / / /__
+        /____/\__, /_/ /_/\___/
+             /____/
+        • Splits syncronization `<leader> + :` and set property `:setw synchronize-panes`
 
 
 

@@ -1,11 +1,14 @@
-         _    ___                 __   ____
-        | |  / (_)___ ___       _/_/  / __ \___  _________  __  _______________  _____
-        | | / / / __ `__ \    _/_/   / /_/ / _ \/ ___/ __ \/ / / / ___/ ___/ _ \/ ___/
-        | |/ / / / / / / /  _/_/    / _, _/  __(__  ) /_/ / /_/ / /  / /__/  __(__  )
-        |___/_/_/ /_/ /_/  /_/     /_/ |_|\___/____/\____/\__,_/_/   \___/\___/____/
-
-        • Learning the vi and Vim Editors
-        • Practical Vim
+           _____       ___ __
+          / ___/____  / (_) /______
+          \__ \/ __ \/ / / __/ ___/
+         ___/ / /_/ / / / /_(__  )
+        /____/ .___/_/_/\__/____/
+            /_/
+        • Create horizontal `<leader> + -` and vertical `<leader> + |` splits
+        • Resize splits `<leader> + L` and `<leader> + H`
+        • Remove split `<leader> + x`
+        • Zoom split `<leader> + z`
+        • Navigation `<leader> + q` and like vim using `vim-tmux-navigator`
 
 
 
