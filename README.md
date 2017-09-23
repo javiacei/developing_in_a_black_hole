@@ -323,7 +323,9 @@ jq is a command line JSON processor
 
 # Demo
 
-- jq '(.results[] | [.origin, .destination] | join(" -> "))'
+```
+jq '(.results[] | [.origin, .destination] | join(" -> "))'
+```
 
 
 # Resources
