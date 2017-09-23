@@ -9,7 +9,7 @@ Francisco Javier Aceituno
 fco.javier.aceituno@gmail.com
 [Github: @javiacei](http://github.com/javiacei)
 
-Software Engineer en OnTruck
+Software Engineer in OnTruck
 
 
 # Contents
@@ -37,7 +37,6 @@ Vim, Vi IMproved, is a power open-source text editor
 - Search
 - Selection
 - Macros
-- Command line
 - Functions
 - Splits and tabs
 - Buffers
@@ -46,7 +45,7 @@ Vim, Vi IMproved, is a power open-source text editor
 - Resources
 
 
-# Vim / Modes
+# Modes
 
 - Normal `esc`
 - Visual `v`
@@ -54,21 +53,11 @@ Vim, Vi IMproved, is a power open-source text editor
 - Command-line `:`
 
 
-# Vim / Navigation
+# Navigation
 
 - Movement keys: `h`, `j`, `k`, `l`
 - Forward, back: `w`, `b`
-- Move multiplier `<numero><desplazamiento>`
-- Go to the begining of current line `0` and to the end `$`
-- Go to the begining of the file `gg` and to the end `G`
-- Go to line `:<linea>`
-
-
-# Vim / Navigation
-
-- Movement keys: `h`, `j`, `k`, `l`
-- Forward, back: `w`, `b`
-- Move multiplier `<numero><desplazamiento>`
+- Move multiplier `<number><movement>`
 - Go to the begining of current line `0` and to the end `$`
 - Go to the begining of the file `gg` and to the end `G`
 - Go to line `:<linea>`
@@ -84,27 +73,14 @@ class Vehicle(models.Model):
 ```
 
 
-# Vim / Actions
+# Actions
 
 - Insert at the end of the current line `A`
 - Add a new line below `o` and above `O`
-- Change text `c + <desplazamiento>`
-- Copy `y + <desplazamiento>`
-- Delete `d + <desplazamiento>`
+- Change text `c + <movement>`
+- Copy `y + <movement>`
 - Paste `p`
-- Undo `u` and redo `c-r`
-- Repeat the last executed command `.`
-- Autocomplete `c-n`
-
-
-# Vim / Actions
-
-- Insert at the end of the current line `A`
-- Add a new line below `o` and above `O`
-- Change text `c + <desplazamiento>`
-- Copy `y + <desplazamiento>`
-- Delete `d + <desplazamiento>`
-- Paste `p`
+- Delete `d + <movement>`
 - Undo `u` and redo `c-r`
 - Repeat the last executed command `.`
 - Autocomplete `c-n`
@@ -120,15 +96,7 @@ class Vehicle(models.Model):
 ```
 
 
-# Vim / Search
-
-- Search inside current line `f<character>` (forward), `F<character>` (back)
-- Search inside current file `/`
-- Search selected word `*`
-- Search and replace `:%s/<search>/<replace>`
-
-
-# Vim / Search
+# Search
 
 - Search inside current line `f<character>` (forward), `F<character>` (back)
 - Search inside current file `/`
@@ -146,13 +114,7 @@ class Vehicle(models.Model):
 ```
 
 
-# Vim / Selection
-
-- In visual mode `v`
-- Block selection `c-v`
-
-
-# Vim / Selection
+# Selection
 
 - In visual mode `v`
 - Block selection `c-v`
@@ -173,16 +135,10 @@ class Incident(models.Model):
 ```
 
 
-# Vim / Macros
+# Macros
 
-- Create a new macro `q + <macro register>`;
-- Apply macro `<number>@ + <macro>`;
-
-
-# Vim / Macros
-
-- Create a new macro `q + <macro register>`;
-- Apply macro `<number>@ + <macro>`;
+- Create a new macro `q + <macro register>`
+- Apply macro `@ + <macro>`
 
 ```python
 # Example
@@ -200,32 +156,27 @@ class Incident(models.Model):
 ```
 
 
-# Vim / Command line
+# Functions
 
-- Execute vim functions `:`
+- Execute vim functions with `:`
+- `:write`, :w, `:quit` ,`:q`, `:edit`, `:e`
 - Execute command line `:!`
 
 
-# Vim / Functions
-
-- Execute vim functions with `:`
-- `:write`, :w, `:quit` ,`:q`, `:edit`, `:w`
-
-
-# Vim / Splits and tabs
+# Splits, Tabs
 
 - Horizontal `:split` `:sp` and vertical `:vsplit` `:vsp` splits
 - Tabs `:tabe`. Navigate with `gt` and `Gt`
 
 
-# Vim / Buffers
+# Buffers
 
 - A file loaded into memory for editing
 - List buffers `:buffers`
 - Select a buffer `:buffer <number>`, `:b <number>`
 
 
-# Vim / Plugins
+# Plugins
 - vundle
 - nerdtree
 - ctrlp
@@ -238,29 +189,31 @@ class Incident(models.Model):
 - vim-molokai
 
 
-# Vim / Tips
+# Tips
 
-- Learn to speak Vim
+- Learn to speak Vim (see resources)
 - Create your own configuration
 - Search and try plugins, but ...
 - Install those you are going to use
 - Keep calm and be patient
 
 
-# Vim / Resources
+# Resources
 
 - [Learning the vi and Vim Editors](http://shop.oreilly.com/product/9780596529833.do)
 - [Practical Vim](https://pragprog.com/book/dnvim2/practical-vim-second-edition)
+- [spf13-vim](https://github.com/spf13/spf13-vim)
 
 
 # Tmux
 
-tmux is a terminal multiplexer that lets you switch between several
-programs in one terminal.
+tmux is a client-server terminal multiplexer that lets you switch
+between several programs in one terminal.
 
 
 # Tmux
 
+- Sessions
 - Windows
 - Splits
 - Navigation
@@ -269,14 +222,21 @@ programs in one terminal.
 - Tips
 
 
-# Tmux / Windows
+# Sessions
+
+- Create sessions `tmux new-session -s <name> -d`
+- Attach to named session `tmux attach-session -t <name>`
+- Create and attach `tmux`
+
+
+# Windows
 
 - Create windows `<leader> + c`
 - Rename windows `<leader> + ,`
 - Navigate between windows `<leader> + w`, `<leader> + number`
 
 
-# Tmux / Splits
+# Splits
 
 - Create horizontal `<leader> + -` and vertical `<leader> + |` splits
 - Resize splits `<leader> + L` and `<leader> + H`
@@ -285,27 +245,34 @@ programs in one terminal.
 - Navigation `<leader> + q` and like vim using `vim-tmux-navigator`
 
 
-# Tmux / Navigation
+# Navigation
 
 - Enter in navigation mode `<leader> + [`
 - Same vim commands to navigate
 - Search `/` and navigate between searches `n` y `N`
 
 
-# Tmux / Sync
+# Sync
 
-- Splits syncronization `<leader> + ;` and set property `:setw synchronize-panes`
-
-
-# Tmux / Pair Prog
+- Splits syncronization `<leader> + :` and set property `:setw synchronize-panes`
 
 
-# Tmux / Tips
+# Pair Prog
 
-- Change tmux leader to `c-a`
-- Map `caps lock` key to `control`
-- Use and configure [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+- Create a named session in detached mode `tmux new-session -s pair -d`
+- Connect to a named session `tmux attach-session -t pair`
+
+
+# Tips
+
+- Change tmux leader to `c-a` mapping `caps lock` key to `control`
 - Configure your own tmux in `~/.tmux.conf`
+- Use and configure [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+
+
+# Resouces
+
+- [tmux: Productive Mouse-Free Development](https://pragprog.com/book/bhtmux/tmux)
 
 
 # HTTPie
@@ -321,6 +288,30 @@ as human-friendly as possible
 - Sessions
 
 
+# Demo
+
+Using curl ...
+
+```
+curl -H "Accept: application/json" \
+    -H "Content-type: application/json" \
+    -X POST -d '{"grant_type":"password","client_id":"<client_id>","username":"<username>","password":"<password>"}' \
+    <url>
+
+curl -H "Accept: application/json" \
+    -H "Content-type: application/json" \
+    -H "Authorization: Bearer <token>" \
+    <url>
+```
+
+Using http ...
+
+```
+http POST :8000/v1/auth/token grant_type=password client_id=<client_id> username=<username> password=<password>
+http <url> "authorization: Bearer <token>" (and with --session=<name> to save the session)
+```
+
+
 # jq
 
 jq is a command line JSON processor
@@ -328,3 +319,29 @@ jq is a command line JSON processor
 - Simple syntax
 - Lots of filters
 - Pipe filters
+
+
+# Demo
+
+- jq '(.results[] | [.origin, .destination] | join(" -> "))'
+
+
+# Resources
+
+- [Slides](http://github.com/javiacei/pycones2017)
+- [Personal dotfiles](http://github.com/javiacei/dotfiles)
+
+
+# Questions?
+
+
+# Thanks!
+
+Francisco Javier Aceituno
+fco.javier.aceituno@gmail.com
+[Github: @javiacei](http://github.com/javiacei)
+
+Software Engineer in OnTruck
+
+We will move 1.000.000 trucks with python, join us!
+jobs@ontruck.com
