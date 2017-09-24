@@ -213,20 +213,12 @@ between several programs in one terminal.
 
 # Tmux
 
-- Sessions
 - Windows
 - Splits
 - Navigation
 - Sync
 - Pair Programming
 - Tips
-
-
-# Sessions
-
-- Create sessions `tmux new-session -s <name> -d`
-- Attach to named session `tmux attach-session -t <name>`
-- Create and attach `tmux`
 
 
 # Windows
