@@ -1,21 +1,13 @@
-           _____                      __
-          / ___/___  ____ ___________/ /_
-          \__ \/ _ \/ __ `/ ___/ ___/ __ \
-         ___/ /  __/ /_/ / /  / /__/ / / /
-        /____/\___/\__,_/_/   \___/_/ /_/
+            ______                 __  _
+           / ____/_  ______  _____/ /_(_)___  ____  _____
+          / /_  / / / / __ \/ ___/ __/ / __ \/ __ \/ ___/
+         / __/ / /_/ / / / / /__/ /_/ / /_/ / / / (__  )
+        /_/    \__,_/_/ /_/\___/\__/_/\____/_/ /_/____/
 
-        • Search inside current line `f<character>` (forward), `F<character>` (back)
-        • Search inside current file `/`
-        • Search selected word `*`
-        • Search and replace `:%s/<search>/<replace>`
+        • Execute vim functions with `:`
+        • `:write`, :w, `:quit` ,`:q`, `:edit`, `:e`
+        • Execute command line `:!`
 
-        # Example
-        from django.db import models
-
-        class Vehicle(models.Model):
-          mma = models.DecimalField(max_digits=10, decimal_places=2, null=True)
-          length = models.DecimalField(max_digits=10, decimal_places=2, null=True)
-          model = models.CharField(max_length=200, null=True, blank=True)
 
 
 

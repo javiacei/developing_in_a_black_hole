@@ -16,6 +16,9 @@
          / / / / /_/ / /  __/
         /_/ /_/\____/_/\___/
 
+        http://github.com/javiacei/developing-in-a-black-hole
+        http://github.com/javiacei/dotfiles
+
 
 
 

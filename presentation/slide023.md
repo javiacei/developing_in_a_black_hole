@@ -1,12 +1,20 @@
-            _   __            _             __  _
-           / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
-          /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
-         / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-        /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
-                            /____/
-        • Enter in navigation mode `<leader> + [`
-        • Same vim commands to navigate
-        • Search `/` and navigate between searches `n` y `N`
+           __  __     _                                __
+          / / / /____(_)___  ____ _   _______  _______/ /
+         / / / / ___/ / __ \/ __ `/  / ___/ / / / ___/ /
+        / /_/ (__  ) / / / / /_/ /  / /__/ /_/ / /  / /
+        \____/____/_/_/ /_/\__, /   \___/\__,_/_/  /_/
+                          /____/
+        Using curl ...
+
+        curl -X POST <url>
+            -H "Accept: application/json" \
+            -H "Content-type: application/json" \
+            -d '{"grant*type":"password","client*id":"<client_id>","username":"<username>","password":"<password>"}' \
+
+        curl <url>
+            -H "Accept: application/json" \
+            -H "Content-type: application/json" \
+            -H "Authorization: Bearer <token>" \
 
 
 

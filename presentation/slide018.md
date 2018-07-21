@@ -1,11 +1,10 @@
-          ______
-         /_  __/___ ___  __  ___  __
-          / / / __ `__ \/ / / / |/_/
-         / / / / / / / / /_/ />  <
-        /_/ /_/ /_/ /_/\__,_/_/|_|
-
-        tmux is a client-server terminal multiplexer that lets you switch
-        between several programs in one terminal.
+           _____
+          / ___/__  ______  _____
+          \__ \/ / / / __ \/ ___/
+         ___/ / /_/ / / / / /__
+        /____/\__, /_/ /_/\___/
+             /____/
+        • Panels syncronization `<leader> + :` and set property `:setw synchronize-panes`
 
 
 

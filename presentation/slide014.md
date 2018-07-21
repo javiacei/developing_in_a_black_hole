@@ -1,12 +1,11 @@
-            ____        ________
-           / __ )__  __/ __/ __/__  __________
-          / __  / / / / /_/ /_/ _ \/ ___/ ___/
-         / /_/ / /_/ / __/ __/  __/ /  (__  )
-        /_____/\__,_/_/ /_/  \___/_/  /____/
+          ______
+         /_  __/___ ___  __  ___  __
+          / / / __ `__ \/ / / / |/_/
+         / / / / / / / / /_/ />  <
+        /_/ /_/ /_/ /_/\__,_/_/|_|
 
-        • A file loaded into memory for editing
-        • List buffers `:buffers`
-        • Select a buffer `:buffer <number>`, `:b <number>`
+        tmux is a client-server terminal multiplexer that lets you switch
+        between several programs in one terminal.
 
 
 

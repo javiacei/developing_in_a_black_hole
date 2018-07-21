@@ -1,14 +1,14 @@
-          _______
-         /_  __(_)___  _____
-          / / / / __ \/ ___/
-         / / / / /_/ (__  )
-        /_/ /_/ .___/____/
-             /_/
-        • Learn to speak Vim (see resources)
-        • Create your own configuration
-        • Search and try plugins, but ...
-        • Install those you are going to use
-        • Keep calm and be patient
+            ____                   __
+           / __ \____ _____  ___  / /____
+          / /_/ / __ `/ __ \/ _ \/ / ___/
+         / ____/ /_/ / / / /  __/ (__  )
+        /_/    \__,_/_/ /_/\___/_/____/
+
+        • Create horizontal `<leader> + -` and vertical `<leader> + |` panels
+        • Resize panel `<leader> + L` and `<leader> + H`
+        • Remove panel `<leader> + x`
+        • Zoom panel `<leader> + z`
+        • Navigation `<leader> + q` and like vim using `vim-tmux-navigator`
 
 
 

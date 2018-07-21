@@ -1,12 +1,14 @@
-            ______                 __  _
-           / ____/_  ______  _____/ /_(_)___  ____  _____
-          / /_  / / / / __ \/ ___/ __/ / __ \/ __ \/ ___/
-         / __/ / /_/ / / / / /__/ /_/ / /_/ / / / (__  )
-        /_/    \__,_/_/ /_/\___/\__/_/\____/_/ /_/____/
-
-        • Execute vim functions with `:`
-        • `:write`, :w, `:quit` ,`:q`, `:edit`, `:e`
-        • Execute command line `:!`
+          _______
+         /_  __(_)___  _____
+          / / / / __ \/ ___/
+         / / / / /_/ (__  )
+        /_/ /_/ .___/____/
+             /_/
+        • Learn to speak Vim (see resources)
+        • Create your own configuration
+        • Search and try plugins, but ...
+        • Install those you are going to use
+        • Keep calm and be patient
 
 
 

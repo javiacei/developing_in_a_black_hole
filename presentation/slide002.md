@@ -1,14 +1,14 @@
-            ___    __                __
-           /   |  / /_  ____  __  __/ /_   ____ ___  ___
-          / /| | / __ \/ __ \/ / / / __/  / __ `__ \/ _ \
-         / ___ |/ /_/ / /_/ / /_/ / /_   / / / / / /  __/
-        /_/  |_/_.___/\____/\__,_/\__/  /_/ /_/ /_/\___/
+         _    ___
+        | |  / (_)___ ___
+        | | / / / __ `__ \
+        | |/ / / / / / / /
+        |___/_/_/ /_/ /_/
 
-        Francisco Javier Aceituno
-        fco.javier.aceituno@gmail.com
-        Github: @javiacei
+        Vim, Vi IMproved, is a power open-source text editor
 
-        Software Engineer in OnTruck
+        • Awesome documentation (:help)
+        • Huge community
+        • Extensible, customizable and portable
 
 
 

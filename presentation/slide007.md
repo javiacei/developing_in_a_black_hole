@@ -1,23 +1,24 @@
-            _   __            _             __  _
-           / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
-          /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
-         / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-        /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
-                            /____/
-        • Movement keys: `h`, `j`, `k`, `l`
-        • Forward, back: `w`, `b`
-        • Move multiplier `<number><movement>`
-        • Go to the begining of current line `0` and to the end `$`
-        • Go to the begining of the file `gg` and to the end `G`
-        • Go to line `:<linea>`
+           _____      __          __  _
+          / ___/___  / /__  _____/ /_(_)___  ____
+          \__ \/ _ \/ / _ \/ ___/ __/ / __ \/ __ \
+         ___/ /  __/ /  __/ /__/ /_/ / /_/ / / / /
+        /____/\___/_/\___/\___/\__/_/\____/_/ /_/
+
+        • In visual mode `v`
+        • Block selection `c-v`
 
         # Example
         from django.db import models
 
-        class Vehicle(models.Model):
-          mma = models.DecimalField(max_digits=10, decimal_places=2, null=True)
-          length = models.DecimalField(max_digits=10, decimal_places=2, null=True)
-          model = models.CharField(max_length=200, null=True, blank=True)
+        class Incident(models.Model):
+            INCIDENT_ACTIONS = (
+                (ASSIGN_DRIVER, 'Assign driver'),
+                (UNASSIGN_DRIVER, 'Unassign driver'),
+                (UPLOAD_CARGO_MANIFEST, 'Upload cargo manifest'),
+                (DELETE_CARGO_MANIFEST, 'Delete cargo manifest'),
+            )
+
+            action = models.CharField(max_length=30, choices=INCIDENT_ACTIONS, default=ACTION_OTHER)
 
 
 

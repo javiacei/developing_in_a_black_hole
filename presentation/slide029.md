@@ -1,24 +1,18 @@
-            ____
-           / __ \___  ____ ___  ____
-          / / / / _ \/ __ `__ \/ __ \
-         / /_/ /  __/ / / / / / /_/ /
-        /_____/\___/_/ /_/ /_/\____/
+          ________                __        __
+         /_  __/ /_  ____ _____  / /_______/ /
+          / / / __ \/ __ `/ __ \/ //_/ ___/ /
+         / / / / / / /_/ / / / / ,< (__  )_/
+        /_/ /_/ /_/\__,_/_/ /_/_/|_/____(_)
 
-        Using curl ...
+        Francisco Javier Aceituno
+        fco.javier.aceituno@gmail.com
+        http://github.com/javiacei
 
-        curl -H "Accept: application/json" \
-            -H "Content-type: application/json" \
-            -X POST -d '{"grant_type":"password","client_id":"<client_id>","username":"<username>","password":"<password>"}' \
-            <url>
+        Software Engineer in OnTruck
 
-        curl -H "Accept: application/json" \
-            -H "Content-type: application/json" \
-            -H "Authorization: Bearer <token>" \
-            <url>
+        We will move 1.000.000 trucks with python, join us!
+        jobs@ontruck.com
 
-
-        http POST :8000/v1/auth/token grant_type=password client_id=<client_id> username=<username> password=<password>
-        http <url> "authorization: Bearer <token>" (and with --session=<name> to save the session)
 
 
 

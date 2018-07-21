@@ -2,22 +2,8 @@
 # in a black
 # hole
 
-
-# About me
-
-Francisco Javier Aceituno
-fco.javier.aceituno@gmail.com
-[Github: @javiacei](http://github.com/javiacei)
-
-Software Engineer in OnTruck
-
-
-# Contents
-
-- Vim
-- Tmux
-- HTTPie
-- jq
+[http://github.com/javiacei/developing-in-a-black-hole](http://github.com/javiacei/developing_in_a_black_hole)
+[http://github.com/javiacei/dotfiles](http://github.com/javiacei/dotfiles)
 
 
 # Vim
@@ -29,28 +15,12 @@ Vim, Vi IMproved, is a power open-source text editor
 - Extensible, customizable and portable
 
 
-# Vim
-
-- Modes
-- Navigation
-- Actions
-- Search
-- Selection
-- Macros
-- Functions
-- Splits and tabs
-- Buffers
-- Plugins
-- Tips
-- Resources
-
-
 # Modes
 
 - Normal `esc`
 - Visual `v`
 - Insert `i`
-- Command-line `:`
+- Command-line `:!`
 
 
 # Navigation
@@ -58,8 +28,8 @@ Vim, Vi IMproved, is a power open-source text editor
 - Movement keys: `h`, `j`, `k`, `l`
 - Forward, back: `w`, `b`
 - Move multiplier `<number><movement>`
-- Go to the begining of current line `0` and to the end `$`
-- Go to the begining of the file `gg` and to the end `G`
+- Go to the beginning of current line `0` and to the end `$`
+- Go to the beginning of the file `gg` and to the end `G`
 - Go to line `:<linea>`
 
 ```python
@@ -78,12 +48,11 @@ class Vehicle(models.Model):
 - Insert at the end of the current line `A`
 - Add a new line below `o` and above `O`
 - Change text `c + <movement>`
-- Copy `y + <movement>`
-- Paste `p`
+- Copy `y + <movement>` and paste `p`
 - Delete `d + <movement>`
 - Undo `u` and redo `c-r`
-- Repeat the last executed command `.`
 - Autocomplete `c-n`
+- Repeat the last executed command `.`
 
 ```python
 # Example
@@ -163,30 +132,21 @@ class Incident(models.Model):
 - Execute command line `:!`
 
 
-# Splits, Tabs
+# Panels, Tabs
 
-- Horizontal `:split` `:sp` and vertical `:vsplit` `:vsp` splits
+- Horizontal `:split` `:sp` and vertical `:vsplit` `:vsp` panels
 - Tabs `:tabe`. Navigate with `gt` and `Gt`
-
-
-# Buffers
-
-- A file loaded into memory for editing
-- List buffers `:buffers`
-- Select a buffer `:buffer <number>`, `:b <number>`
 
 
 # Plugins
 - vundle
 - nerdtree
 - ctrlp
-- fugitive
-- tabular
 - ack
 - vim-tmux-navigator
 - vim-snippets
 - vim-flake8
-- vim-molokai
+- vim-numbertoggle
 
 
 # Tips
@@ -211,16 +171,6 @@ tmux is a client-server terminal multiplexer that lets you switch
 between several programs in one terminal.
 
 
-# Tmux
-
-- Windows
-- Splits
-- Navigation
-- Sync
-- Pair Programming
-- Tips
-
-
 # Windows
 
 - Create windows `<leader> + c`
@@ -228,12 +178,12 @@ between several programs in one terminal.
 - Navigate between windows `<leader> + w`, `<leader> + number`
 
 
-# Splits
+# Panels
 
-- Create horizontal `<leader> + -` and vertical `<leader> + |` splits
-- Resize splits `<leader> + L` and `<leader> + H`
-- Remove split `<leader> + x`
-- Zoom split `<leader> + z`
+- Create horizontal `<leader> + -` and vertical `<leader> + |` panels
+- Resize panel `<leader> + L` and `<leader> + H`
+- Remove panel `<leader> + x`
+- Zoom panel `<leader> + z`
 - Navigation `<leader> + q` and like vim using `vim-tmux-navigator`
 
 
@@ -246,7 +196,7 @@ between several programs in one terminal.
 
 # Sync
 
-- Splits syncronization `<leader> + :` and set property `:setw synchronize-panes`
+- Panels syncronization `<leader> + :` and set property `:setw synchronize-panes`
 
 
 # Pair Prog
@@ -262,7 +212,7 @@ between several programs in one terminal.
 - Use and configure [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
 
 
-# Resouces
+# Resources
 
 - [tmux: Productive Mouse-Free Development](https://pragprog.com/book/bhtmux/tmux)
 
@@ -280,28 +230,25 @@ as human-friendly as possible
 - Sessions
 
 
-# Demo
+# Using curl
 
 Using curl ...
 
-```
-curl -H "Accept: application/json" \
+curl -X POST <url>
+    -H "Accept: application/json" \
     -H "Content-type: application/json" \
-    -X POST -d '{"grant_type":"password","client_id":"<client_id>","username":"<username>","password":"<password>"}' \
-    <url>
+    -d '{"grant_type":"password","client_id":"<client_id>","username":"<username>","password":"<password>"}' \
 
-curl -H "Accept: application/json" \
+curl <url>
+    -H "Accept: application/json" \
     -H "Content-type: application/json" \
     -H "Authorization: Bearer <token>" \
-    <url>
-```
 
-Using http ...
 
-```
-http POST :8000/v1/auth/token grant_type=password client_id=<client_id> username=<username> password=<password>
+# Using httpie
+
+http POST <url> grant_type=password client_id=<client_id> username=<username> password=<password>
 http <url> "authorization: Bearer <token>" (and with --session=<name> to save the session)
-```
 
 
 # jq
@@ -309,31 +256,20 @@ http <url> "authorization: Bearer <token>" (and with --session=<name> to save th
 jq is a command line JSON processor
 
 - Simple syntax
-- Lots of filters
-- Pipe filters
+- JSON highlighting
+- Lots of pipe filters
 
 
 # Demo
 
-```
-jq '(.results[] | [.origin, .destination] | join(" -> "))'
-```
-
-
-# Resources
-
-- [Slides](http://github.com/javiacei/pycones2017)
-- [Personal dotfiles](http://github.com/javiacei/dotfiles)
-
-
-# Questions?
+jq '(.results | limit(3;.[]) | [.origin, .destination] | join(" -> "))'
 
 
 # Thanks!
 
 Francisco Javier Aceituno
 fco.javier.aceituno@gmail.com
-[Github: @javiacei](http://github.com/javiacei)
+[http://github.com/javiacei](http://github.com/javiacei)
 
 Software Engineer in OnTruck
 

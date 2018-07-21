@@ -1,14 +1,18 @@
-           _____       ___ __
-          / ___/____  / (_) /______
-          \__ \/ __ \/ / / __/ ___/
-         ___/ / /_/ / / / /_(__  )
-        /____/ .___/_/_/\__/____/
-            /_/
-        • Create horizontal `<leader> + -` and vertical `<leader> + |` splits
-        • Resize splits `<leader> + L` and `<leader> + H`
-        • Remove split `<leader> + x`
-        • Zoom split `<leader> + z`
-        • Navigation `<leader> + q` and like vim using `vim-tmux-navigator`
+            __  __________________  _
+           / / / /_  __/_  __/ __ \(_)__
+          / /_/ / / /   / / / /_/ / / _ \
+         / __  / / /   / / / ____/ /  __/
+        /_/ /_/ /_/   /_/ /_/   /_/\___/
+
+        Command line HTTP client to make interaction with web services
+        as human-friendly as possible
+
+        • Command `http` to make requests
+        • JSON highlighting
+        • Provide query params `==`
+        • JSON by default `=`, `:=`, `@=`
+        • Set headers `Header:Value`
+        • Sessions
 
 
 

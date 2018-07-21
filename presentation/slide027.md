@@ -1,10 +1,17 @@
-            ____
-           / __ \___  _________  __  __________  _____
-          / /_/ / _ \/ ___/ __ \/ / / / ___/ _ \/ ___/
-         / _, _/  __(__  ) /_/ / /_/ / /__/  __(__  )
-        /_/ |_|\___/____/\____/\__,_/\___/\___/____/
+          ________                __        __
+         /_  __/ /_  ____ _____  / /_______/ /
+          / / / __ \/ __ `/ __ \/ //_/ ___/ /
+         / / / / / / /_/ / / / / ,< (__  )_/
+        /_/ /_/ /_/\__,_/_/ /_/_/|_/____(_)
 
-        • tmux: Productive Mouse-Free Development
+        Francisco Javier Aceituno
+        fco.javier.aceituno@gmail.com
+        http://github.com/javiacei
+
+        Software Engineer in OnTruck
+
+        We will move 1.000.000 trucks with python, join us!
+        jobs@ontruck.com
 
 
 

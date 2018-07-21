@@ -1,26 +1,24 @@
-            ___        __  _
-           /   | _____/ /_(_)___  ____  _____
-          / /| |/ ___/ __/ / __ \/ __ \/ ___/
-         / ___ / /__/ /_/ / /_/ / / / (__  )
-        /_/  |_\___/\__/_/\____/_/ /_/____/
+            __  ___
+           /  |/  /___ _______________  _____
+          / /|_/ / __ `/ ___/ ___/ __ \/ ___/
+         / /  / / /_/ / /__/ /  / /_/ (__  )
+        /_/  /_/\__,_/\___/_/   \____/____/
 
-        • Insert at the end of the current line `A`
-        • Add a new line below `o` and above `O`
-        • Change text `c + <movement>`
-        • Copy `y + <movement>`
-        • Paste `p`
-        • Delete `d + <movement>`
-        • Undo `u` and redo `c-r`
-        • Repeat the last executed command `.`
-        • Autocomplete `c-n`
+        • Create a new macro `q + <macro register>`
+        • Apply macro `@ + <macro>`
 
         # Example
         from django.db import models
 
-        class Vehicle(models.Model):
-          mma = models.DecimalField(max_digits=10, decimal_places=2, null=True)
-          length = models.DecimalField(max_digits=10, decimal_places=2, null=True)
-          model = models.CharField(max_length=200, null=True, blank=True)
+        class Incident(models.Model):
+            INCIDENT_ACTIONS = (
+                (ASSIGN_DRIVER, 'Assign driver'),
+                (UNASSIGN_DRIVER, 'Unassign driver'),
+                (UPLOAD_CARGO_MANIFEST, 'Upload cargo manifest'),
+                (DELETE_CARGO_MANIFEST, 'Delete cargo manifest'),
+            )
+
+            action = models.CharField(max_length=30, choices=INCIDENT_ACTIONS, default=ACTION_OTHER)
 
 
 

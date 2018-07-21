@@ -1,12 +1,10 @@
-          _______
-         /_  __(_)___  _____
-          / / / / __ \/ ___/
-         / / / / /_/ (__  )
-        /_/ /_/ .___/____/
-             /_/
-        • Change tmux leader to `c-a` mapping `caps lock` key to `control`
-        • Configure your own tmux in `~/.tmux.conf`
-        • Use and configure vim-tmux-navigator
+            ____
+           / __ \___  ____ ___  ____
+          / / / / _ \/ __ `__ \/ __ \
+         / /_/ /  __/ / / / / / /_/ /
+        /_____/\___/_/ /_/ /_/\____/
+
+        jq '(.results | limit(3;.[]) | [.origin, .destination] | join(" -> "))'
 
 
 
