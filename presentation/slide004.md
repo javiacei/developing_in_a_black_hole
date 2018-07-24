@@ -7,6 +7,7 @@
         • Movement keys: `h`, `j`, `k`, `l`
         • Forward, back: `w`, `b`
         • Move multiplier `<number><movement>`
+        • Go to char inside current line `f<character>` (forward), `F<character>` (back)
         • Go to the beginning of current line `0` and to the end `$`
         • Go to the beginning of the file `gg` and to the end `G`
         • Go to line `:<linea>`

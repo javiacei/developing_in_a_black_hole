@@ -1,12 +1,10 @@
-         _       ___           __
-        | |     / (_)___  ____/ /___ _      _______
-        | | /| / / / __ \/ __  / __ \ | /| / / ___/
-        | |/ |/ / / / / / /_/ / /_/ / |/ |/ (__  )
-        |__/|__/_/_/ /_/\__,_/\____/|__/|__/____/
-
-        • Create windows `<leader> + c`
-        • Rename windows `<leader> + ,`
-        • Navigate between windows `<leader> + w`, `<leader> + number`
+           _____
+          / ___/__  ______  _____
+          \__ \/ / / / __ \/ ___/
+         ___/ / /_/ / / / / /__
+        /____/\__, /_/ /_/\___/
+             /____/
+        • Panels syncronization `<leader> + :` and set property `:setw synchronize-panes`
 
 
 

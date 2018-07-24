@@ -4,6 +4,9 @@
          / _, _/  __(__  ) /_/ / /_/ / /  / /__/  __(__  )
         /_/ |_|\___/____/\____/\__,_/_/   \___/\___/____/
 
+        • Learning the vi and Vim Editors
+        • Practical Vim
+        • spf13-vim
         • tmux: Productive Mouse-Free Development
 
 

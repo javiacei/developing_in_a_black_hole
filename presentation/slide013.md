@@ -1,12 +1,14 @@
-            ____
-           / __ \___  _________  __  _______________  _____
-          / /_/ / _ \/ ___/ __ \/ / / / ___/ ___/ _ \/ ___/
-         / _, _/  __(__  ) /_/ / /_/ / /  / /__/  __(__  )
-        /_/ |_|\___/____/\____/\__,_/_/   \___/\___/____/
+            ____                   __
+           / __ \____ _____  ___  / /____
+          / /_/ / __ `/ __ \/ _ \/ / ___/
+         / ____/ /_/ / / / /  __/ (__  )
+        /_/    \__,_/_/ /_/\___/_/____/
 
-        • Learning the vi and Vim Editors
-        • Practical Vim
-        • spf13-vim
+        • Create horizontal `<leader> + -` and vertical `<leader> + |` panels
+        • Resize panel `<leader> + L` and `<leader> + H`
+        • Remove panel `<leader> + x`
+        • Zoom panel `<leader> + z`
+        • Navigation `<leader> + q` and like vim using `vim-tmux-navigator`
 
 
 

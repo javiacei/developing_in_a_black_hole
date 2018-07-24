@@ -4,7 +4,6 @@
          ___/ /  __/ /_/ / /  / /__/ / / /
         /____/\___/\__,_/_/   \___/_/ /_/
 
-        • Search inside current line `f<character>` (forward), `F<character>` (back)
         • Search inside current file `/`
         • Search selected word `*`
         • Search and replace `:%s/<search>/<replace>`

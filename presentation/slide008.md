@@ -1,24 +1,12 @@
-            __  ___
-           /  |/  /___ _______________  _____
-          / /|_/ / __ `/ ___/ ___/ __ \/ ___/
-         / /  / / /_/ / /__/ /  / /_/ (__  )
-        /_/  /_/\__,_/\___/_/   \____/____/
+            ____                   __          ______      __
+           / __ \____ _____  ___  / /____     /_  __/___ _/ /_  _____
+          / /_/ / __ `/ __ \/ _ \/ / ___/      / / / __ `/ __ \/ ___/
+         / ____/ /_/ / / / /  __/ (__  )      / / / /_/ / /_/ (__  )
+        /_/    \__,_/_/ /_/\___/_/____( )    /_/  \__,_/_.___/____/
+                                      |/
+        • Horizontal `:split` `:sp` and vertical `:vsplit` `:vsp` panels
+        • Tabs `:tabe`. Navigate with `gt` and `Gt`
 
-        • Create a new macro `q + <macro register>`
-        • Apply macro `@ + <macro>`
-
-        # Example
-        from django.db import models
-
-        class Incident(models.Model):
-            INCIDENT_ACTIONS = (
-                (ASSIGN_DRIVER, 'Assign driver'),
-                (UNASSIGN_DRIVER, 'Unassign driver'),
-                (UPLOAD_CARGO_MANIFEST, 'Upload cargo manifest'),
-                (DELETE_CARGO_MANIFEST, 'Delete cargo manifest'),
-            )
-
-            action = models.CharField(max_length=30, choices=INCIDENT_ACTIONS, default=ACTION_OTHER)
 
 
 

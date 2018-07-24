@@ -18,15 +18,14 @@ b 1
 b 2
 b 3
 b 4
-14,21SyntaxInclude python
+15,22SyntaxInclude python
 b 5
 16,23SyntaxInclude python
 b 6
-12,19SyntaxInclude python
+11,18SyntaxInclude python
 b 7
 10,22SyntaxInclude python
 b 8
-10,22SyntaxInclude python
 b 9
 b 10
 b 11
@@ -41,9 +40,4 @@ b 19
 b 20
 b 21
 b 22
-b 23
-b 24
-b 25
-b 26
-b 27
 b 1

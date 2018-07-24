@@ -1,18 +1,17 @@
-            __  __________________  _
-           / / / /_  __/_  __/ __ \(_)__
-          / /_/ / / /   / / / /_/ / / _ \
-         / __  / / /   / / / ____/ /  __/
-        /_/ /_/ /_/   /_/ /_/   /_/\___/
+          ________                __        __
+         /_  __/ /_  ____ _____  / /_______/ /
+          / / / __ \/ __ `/ __ \/ //_/ ___/ /
+         / / / / / / /_/ / / / / ,< (__  )_/
+        /_/ /_/ /_/\__,_/_/ /_/_/|_/____(_)
 
-        Command line HTTP client to make interaction with web services
-        as human-friendly as possible
+        Francisco Javier Aceituno
+        fco.javier.aceituno@gmail.com
+        http://github.com/javiacei
 
-        • Command `http` to make requests
-        • JSON highlighting
-        • Provide query params `==`
-        • JSON by default `=`, `:=`, `@=`
-        • Set headers `Header:Value`
-        • Sessions
+        Software Engineer in OnTruck
+
+        We will move 1.000.000 trucks with python, join us!
+        jobs@ontruck.com
 
 
 

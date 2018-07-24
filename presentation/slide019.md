@@ -1,11 +1,11 @@
-            ____        _         ____
-           / __ \____ _(_)____   / __ \_________  ____ _
-          / /_/ / __ `/ / ___/  / /_/ / ___/ __ \/ __ `/
-         / ____/ /_/ / / /     / ____/ /  / /_/ / /_/ /
-        /_/    \__,_/_/_/     /_/   /_/   \____/\__, /
-                                               /____/
-        • Create a named session in detached mode `tmux new-session -s pair -d`
-        • Connect to a named session `tmux attach-session -t pair`
+           __  __     _                __    __  __        _
+          / / / /____(_)___  ____ _   / /_  / /_/ /_____  (_)__
+         / / / / ___/ / __ \/ __ `/  / __ \/ __/ __/ __ \/ / _ \
+        / /_/ (__  ) / / / / /_/ /  / / / / /_/ /_/ /_/ / /  __/
+        \____/____/_/_/ /_/\__, /  /_/ /_/\__/\__/ .___/_/\___/
+                          /____/                /_/
+        http POST <url> grant*type=password client*id=<client_id> username=<username> password=<password>
+        http <url> "authorization: Bearer <token>" (and with --session=<name> to save the session)
 
 
 

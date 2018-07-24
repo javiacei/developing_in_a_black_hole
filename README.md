@@ -2,7 +2,7 @@
 # in a black
 # hole
 
-[http://github.com/javiacei/developing-in-a-black-hole](http://github.com/javiacei/developing_in_a_black_hole)
+[http://github.com/javiacei/developing-in-a-black-hole](http://github.com/javiacei/developing-in-a-black-hole)
 [http://github.com/javiacei/dotfiles](http://github.com/javiacei/dotfiles)
 
 
@@ -28,6 +28,7 @@ Vim, Vi IMproved, is a power open-source text editor
 - Movement keys: `h`, `j`, `k`, `l`
 - Forward, back: `w`, `b`
 - Move multiplier `<number><movement>`
+- Go to char inside current line `f<character>` (forward), `F<character>` (back)
 - Go to the beginning of current line `0` and to the end `$`
 - Go to the beginning of the file `gg` and to the end `G`
 - Go to line `:<linea>`
@@ -67,7 +68,6 @@ class Vehicle(models.Model):
 
 # Search
 
-- Search inside current line `f<character>` (forward), `F<character>` (back)
 - Search inside current file `/`
 - Search selected word `*`
 - Search and replace `:%s/<search>/<replace>`
@@ -104,25 +104,10 @@ class Incident(models.Model):
 ```
 
 
-# Macros
+# Panels, Tabs
 
-- Create a new macro `q + <macro register>`
-- Apply macro `@ + <macro>`
-
-```python
-# Example
-from django.db import models
-
-class Incident(models.Model):
-    INCIDENT_ACTIONS = (
-        (ASSIGN_DRIVER, 'Assign driver'),
-        (UNASSIGN_DRIVER, 'Unassign driver'),
-        (UPLOAD_CARGO_MANIFEST, 'Upload cargo manifest'),
-        (DELETE_CARGO_MANIFEST, 'Delete cargo manifest'),
-    )
-
-    action = models.CharField(max_length=30, choices=INCIDENT_ACTIONS, default=ACTION_OTHER)
-```
+- Horizontal `:split` `:sp` and vertical `:vsplit` `:vsp` panels
+- Tabs `:tabe`. Navigate with `gt` and `Gt`
 
 
 # Functions
@@ -130,12 +115,6 @@ class Incident(models.Model):
 - Execute vim functions with `:`
 - `:write`, :w, `:quit` ,`:q`, `:edit`, `:e`
 - Execute command line `:!`
-
-
-# Panels, Tabs
-
-- Horizontal `:split` `:sp` and vertical `:vsplit` `:vsp` panels
-- Tabs `:tabe`. Navigate with `gt` and `Gt`
 
 
 # Plugins
@@ -147,22 +126,6 @@ class Incident(models.Model):
 - vim-snippets
 - vim-flake8
 - vim-numbertoggle
-
-
-# Tips
-
-- Learn to speak Vim (see resources)
-- Create your own configuration
-- Search and try plugins, but ...
-- Install those you are going to use
-- Keep calm and be patient
-
-
-# Resources
-
-- [Learning the vi and Vim Editors](http://shop.oreilly.com/product/9780596529833.do)
-- [Practical Vim](https://pragprog.com/book/dnvim2/practical-vim-second-edition)
-- [spf13-vim](https://github.com/spf13/spf13-vim)
 
 
 # Tmux
@@ -205,18 +168,6 @@ between several programs in one terminal.
 - Connect to a named session `tmux attach-session -t pair`
 
 
-# Tips
-
-- Change tmux leader to `c-a` mapping `caps lock` key to `control`
-- Configure your own tmux in `~/.tmux.conf`
-- Use and configure [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
-
-
-# Resources
-
-- [tmux: Productive Mouse-Free Development](https://pragprog.com/book/bhtmux/tmux)
-
-
 # HTTPie
 
 Command line HTTP client to make interaction with web services 
@@ -251,18 +202,27 @@ http POST <url> grant_type=password client_id=<client_id> username=<username> pa
 http <url> "authorization: Bearer <token>" (and with --session=<name> to save the session)
 
 
-# jq
+# Tips
 
-jq is a command line JSON processor
+For Vim:
+- Learn to speak Vim (see resources)
+- Create your own configuration
+- Search and try plugins, but ...
+- Install those you are going to use
+- Keep calm and be patient
 
-- Simple syntax
-- JSON highlighting
-- Lots of pipe filters
+For Tmux:
+- Change tmux leader to `c-a` mapping `caps lock` key to `control`
+- Configure your own tmux in `~/.tmux.conf`
+- Use and configure [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
 
 
-# Demo
+# Resources
 
-jq '(.results | limit(3;.[]) | [.origin, .destination] | join(" -> "))'
+- [Learning the vi and Vim Editors](http://shop.oreilly.com/product/9780596529833.do)
+- [Practical Vim](https://pragprog.com/book/dnvim2/practical-vim-second-edition)
+- [spf13-vim](https://github.com/spf13/spf13-vim)
+- [tmux: Productive Mouse-Free Development](https://pragprog.com/book/bhtmux/tmux)
 
 
 # Thanks!
